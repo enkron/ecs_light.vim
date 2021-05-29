@@ -39,7 +39,7 @@ hi Visual ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=blue
 hi Comment ctermfg=darkgray guifg=darkgray
 
 hi Constant ctermfg=blue term=bold cterm=bold guifg=NONE
-hi String ctermfg=black cterm =italic guifg=black
+hi String ctermfg=black guifg=black
 hi Character ctermfg=brown guifg=brown
 hi Number ctermfg=brown cterm=bold term=bold guifg=brown
 hi Boolean ctermfg=brown cterm=bold term=bold guifg=brown
