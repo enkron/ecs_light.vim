@@ -26,7 +26,7 @@ hi ErrorMsg ctermfg=white ctermbg=red cterm=bold term=bold guifg=red
 hi WarningMsg ctermfg=red ctermbg=NONE guifg=red
 hi MatchParen ctermfg=white ctermbg=brown cterm=bold term=bold guifg=lightcyan
 hi MoreMsg ctermfg=white guifg=white
-hi NonText ctermfg=gray guifg=gray
+hi NonText ctermfg=grey guifg=grey
 hi Search ctermfg=white ctermbg=brown cterm=bold term=bold guifg=brown
 hi link IncSearch Search
 hi StatusLine ctermbg=black ctermfg=lightgray guifg=lightgray
@@ -39,13 +39,13 @@ hi Visual ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=blue
 hi Comment ctermfg=darkgray guifg=darkgray
 
 hi Constant ctermfg=blue term=bold cterm=bold guifg=NONE
-hi String ctermfg=black guifg=black
+hi String ctermfg=black cterm =italic guifg=black
 hi Character ctermfg=brown guifg=brown
 hi Number ctermfg=brown cterm=bold term=bold guifg=brown
 hi Boolean ctermfg=brown cterm=bold term=bold guifg=brown
 hi Float ctermfg=brown cterm=bold term=bold guifg=brown
 
-hi Pmenu ctermfg=black  ctermbg=white guifg=white
+hi Pmenu ctermfg=grey ctermbg=white guifg=white
 hi PmenuSel ctermfg=darkblue ctermbg=white cterm=bold term=bold guifg=darkblue
 
 hi Identifier ctermfg=darkblue ctermbg=NONE cterm=NONE term=NONE guifg=blue
@@ -70,7 +70,7 @@ hi link Structure Type
 hi link Typedef Type
 
 hi Special ctermfg=brown cterm=bold term=bold guifg=brown
-hi SpecialComment ctermfg=gray guifg=gray
+hi SpecialComment ctermfg=grey guifg=grey
 hi SpecialChar ctermfg=brown guifg=brown
 hi Tag ctermfg=darkblue guifg=darkblue
 hi Delimeter ctermfg=brown guifg=brown
