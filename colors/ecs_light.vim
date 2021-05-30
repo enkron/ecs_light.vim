@@ -27,7 +27,7 @@ hi WarningMsg ctermfg=red ctermbg=NONE guifg=red
 hi MatchParen ctermfg=white ctermbg=brown cterm=bold term=bold guifg=lightcyan
 hi MoreMsg ctermfg=white guifg=white
 hi NonText ctermfg=grey guifg=grey
-hi Search ctermfg=white ctermbg=brown cterm=bold term=bold guifg=brown
+hi Search ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=black
 hi link IncSearch Search
 hi StatusLine ctermbg=black ctermfg=lightgray guifg=lightgray
 hi VertSplit ctermfg=black ctermbg=NONE cterm=bold term=bold guifg=black
@@ -39,7 +39,7 @@ hi Visual ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=blue
 hi Comment ctermfg=darkgray guifg=darkgray
 
 hi Constant ctermfg=blue term=bold cterm=bold guifg=NONE
-hi String ctermfg=black guifg=black
+hi String ctermfg=black cterm=italic guifg=black
 hi Character ctermfg=brown guifg=brown
 hi Number ctermfg=brown cterm=bold term=bold guifg=brown
 hi Boolean ctermfg=brown cterm=bold term=bold guifg=brown
