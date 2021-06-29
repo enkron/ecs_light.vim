@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer:   Sergei Belokon <srj.belokon@gmail.com>
 " Repository:   https://github.com/enkron/ecs_light
-" Last Change:  2021 May 21
+" Last Change:  2021 Jun 29
 
 set bg=light
 hi clear
@@ -36,7 +36,8 @@ hi Visual ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=blue
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                         Syntax Highlighting                          "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-hi Comment ctermfg=darkgray cterm=italic guifg=darkgray
+hi Comment ctermfg=grey cterm=italic guifg=grey
+hi SpecialComment ctermfg=darkgreen cterm=italic guifg=darkgreen
 
 hi Constant ctermfg=blue term=bold cterm=bold guifg=NONE
 hi String ctermfg=black cterm=italic guifg=black
@@ -73,7 +74,6 @@ hi link Typedef Type
 hi Special ctermfg=brown cterm=bold,italic term=bold guifg=brown
 hi StorageClass ctermfg=darkmagenta guifg=darkmagenta
 
-hi SpecialComment ctermfg=grey cterm=bold guifg=grey
 hi SpecialChar ctermfg=brown guifg=brown
 hi Tag ctermfg=darkblue guifg=darkblue
 hi Delimeter ctermfg=brown guifg=brown
@@ -84,7 +84,7 @@ hi SpellCap ctermfg=red ctermbg=NONE guifg=white
 hi SpellRare ctermfg=red ctermbg=NONE guifg=white
 hi SpellLocal ctermfg=red ctermbg=NONE guifg=white
 
-hi Todo ctermfg=white ctermbg=brown cterm=bold term=bold guifg=white
-hi Error ctermfg=red ctermbg=white cterm=bold term=bold guifg=white
+hi Todo ctermfg=white ctermbg=lightgray cterm=bold,italic guifg=white
+hi Error ctermfg=red guifg=red
 
 hi DiffChange ctermfg=white ctermbg=brown guifg=white
