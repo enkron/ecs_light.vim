@@ -42,7 +42,7 @@ hi SpecialComment ctermfg=darkgreen cterm=italic guifg=darkgreen
 hi Constant ctermfg=blue term=bold cterm=bold guifg=NONE
 hi String ctermfg=black cterm=italic guifg=black
 hi Character ctermfg=brown guifg=brown
-hi Number ctermfg=brown cterm=bold term=bold guifg=brown
+hi Number ctermfg=brown guifg=brown
 hi Boolean ctermfg=brown cterm=bold term=bold guifg=brown
 hi Float ctermfg=brown cterm=bold term=bold guifg=brown
 
@@ -50,7 +50,7 @@ hi Pmenu ctermfg=grey ctermbg=white guifg=white
 hi PmenuSel ctermfg=darkblue ctermbg=white cterm=bold term=bold guifg=darkblue
 
 hi Identifier ctermfg=darkblue ctermbg=NONE cterm=NONE term=NONE guifg=blue
-hi Function ctermfg=blue ctermbg=NONE guifg=blue
+hi Function ctermfg=black cterm=bold  guifg=black
 
 hi Statement ctermfg=darkblue guifg=darkblue
 hi link Conditional Statement
@@ -58,13 +58,15 @@ hi link Repeat Statement
 hi link Exception Statement
 hi link Label Statement
 
-hi Operator ctermfg=red guifg=red
+hi Operator ctermfg=darkgreen guifg=darkgreen
 hi Keyword ctermfg=brown guifg=brown
 
-hi PreProc ctermfg=darkblue ctermbg=NONE cterm=bold term=bold guifg=darkblue
+hi Macro ctermfg=blue guifg=blue
+
+hi PreProc ctermfg=darkblue cterm=bold guifg=darkblue
+hi PreCondit ctermfg=blue guifg=blue
 hi link Include PreProc
 hi link Define PreProc
-hi link PreCondit PreProc
 
 hi Type ctermfg=darkblue guifg=darkblue
 hi link StorageClabluess Type
@@ -85,6 +87,6 @@ hi SpellRare ctermfg=red ctermbg=NONE guifg=white
 hi SpellLocal ctermfg=red ctermbg=NONE guifg=white
 
 hi Todo ctermfg=white ctermbg=lightgray cterm=bold,italic guifg=white
-hi Error ctermfg=red guifg=red
+hi Error ctermfg=red ctermbg=NONE cterm=bold,italic guifg=red
 
 hi DiffChange ctermfg=white ctermbg=brown guifg=white
