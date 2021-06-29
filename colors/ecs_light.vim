@@ -24,7 +24,7 @@ hi CursorLineNr ctermfg=black ctermbg=lightgray cterm=bold term=bold guifg=black
 hi Directory ctermfg=blue guifg=blue
 hi ErrorMsg ctermfg=white ctermbg=red cterm=bold term=bold guifg=red
 hi WarningMsg ctermfg=red ctermbg=NONE guifg=red
-hi MatchParen ctermfg=white ctermbg=brown cterm=bold term=bold guifg=lightcyan
+hi MatchParen ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=darkcyan
 hi MoreMsg ctermfg=white guifg=white
 hi NonText ctermfg=grey guifg=grey
 hi Search ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=black
@@ -36,7 +36,7 @@ hi Visual ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=blue
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                         Syntax Highlighting                          "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-hi Comment ctermfg=darkgray guifg=darkgray
+hi Comment ctermfg=darkgray cterm=italic guifg=darkgray
 
 hi Constant ctermfg=blue term=bold cterm=bold guifg=NONE
 hi String ctermfg=black cterm=italic guifg=black
@@ -49,14 +49,15 @@ hi Pmenu ctermfg=grey ctermbg=white guifg=white
 hi PmenuSel ctermfg=darkblue ctermbg=white cterm=bold term=bold guifg=darkblue
 
 hi Identifier ctermfg=darkblue ctermbg=NONE cterm=NONE term=NONE guifg=blue
-hi Function ctermfg=darkblue ctermbg=NONE guifg=darkblue
+hi Function ctermfg=blue ctermbg=NONE guifg=blue
 
 hi Statement ctermfg=darkblue guifg=darkblue
 hi link Conditional Statement
 hi link Repeat Statement
 hi link Exception Statement
 hi link Label Statement
-hi Operator ctermfg=brown guifg=brown
+
+hi Operator ctermfg=red guifg=red
 hi Keyword ctermfg=brown guifg=brown
 
 hi PreProc ctermfg=darkblue ctermbg=NONE cterm=bold term=bold guifg=darkblue
@@ -69,8 +70,10 @@ hi link StorageClabluess Type
 hi link Structure Type
 hi link Typedef Type
 
-hi Special ctermfg=brown cterm=bold term=bold guifg=brown
-hi SpecialComment ctermfg=grey guifg=grey
+hi Special ctermfg=brown cterm=bold,italic term=bold guifg=brown
+hi StorageClass ctermfg=darkmagenta guifg=darkmagenta
+
+hi SpecialComment ctermfg=grey cterm=bold guifg=grey
 hi SpecialChar ctermfg=brown guifg=brown
 hi Tag ctermfg=darkblue guifg=darkblue
 hi Delimeter ctermfg=brown guifg=brown
@@ -82,6 +85,6 @@ hi SpellRare ctermfg=red ctermbg=NONE guifg=white
 hi SpellLocal ctermfg=red ctermbg=NONE guifg=white
 
 hi Todo ctermfg=white ctermbg=brown cterm=bold term=bold guifg=white
-hi Error ctermfg=white ctermbg=darkred cterm=bold term=bold guifg=red
+hi Error ctermfg=red ctermbg=white cterm=bold term=bold guifg=white
 
 hi DiffChange ctermfg=white ctermbg=brown guifg=white
