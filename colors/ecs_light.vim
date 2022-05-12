@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer:   Sergei Belokon <srj.belokon@gmail.com>
-" Repository:   https://github.com/enkron/ecs_light
-" Last Change:  2021 Jun 29
+" Repository:   https://github.com/enkron/ecs_light.vim
+" Last Change:  2022 May 12
 
 set bg=light
 hi clear
@@ -14,7 +14,7 @@ let g:colors_name = "ecs_light"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                               General                                "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-hi Normal ctermfg=black ctermbg=white guifg=white
+hi Normal ctermfg=black ctermbg=NONE guifg=NONE
 
 hi ModeMsg ctermfg=black ctermbg=white term=bold guifg=darkcyan
 hi Cursor ctermfg=NONE guifg=NONE
