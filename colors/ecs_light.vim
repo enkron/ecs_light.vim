@@ -87,6 +87,6 @@ hi SpellRare ctermfg=red ctermbg=NONE guifg=white
 hi SpellLocal ctermfg=red ctermbg=NONE guifg=white
 
 hi Todo ctermfg=white ctermbg=lightgray cterm=bold,italic guifg=white
-hi Error ctermfg=red ctermbg=NONE cterm=bold,italic guifg=red
+hi Error ctermfg=darkmagenta ctermbg=NONE cterm=italic guifg=darkmagenta
 
 hi DiffChange ctermfg=white ctermbg=brown guifg=white
