@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer:   Sergei Belokon <srj.belokon@gmail.com>
 " Repository:   https://github.com/enkron/ecs_light.vim
-" Last Change:  2022 May 12
+" Last Change:  2023 Oct 05
 
 set bg=light
 hi clear
@@ -37,7 +37,7 @@ hi Visual ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=blue
 "                         Syntax Highlighting                          "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 hi Comment ctermfg=grey cterm=italic guifg=grey
-hi SpecialComment ctermfg=darkgreen cterm=italic guifg=darkgreen
+hi SpecialComment ctermfg=darkgrey cterm=italic guifg=darkgrey
 
 hi Constant ctermfg=blue term=bold cterm=bold guifg=NONE
 hi String ctermfg=black cterm=italic guifg=black
@@ -58,7 +58,7 @@ hi link Repeat Statement
 hi link Exception Statement
 hi link Label Statement
 
-hi Operator ctermfg=darkgreen guifg=darkgreen
+hi Operator ctermfg=darkmagenta cterm=bold term=bold guifg=darkmagenta
 hi Keyword ctermfg=brown guifg=brown
 
 hi Macro ctermfg=blue guifg=blue
@@ -74,7 +74,7 @@ hi link Structure Type
 hi link Typedef Type
 
 hi Special ctermfg=brown cterm=bold,italic term=bold guifg=brown
-hi StorageClass ctermfg=darkmagenta guifg=darkmagenta
+hi StorageClass ctermfg=darkmagenta cterm=bold term=bold guifg=darkmagenta
 
 hi SpecialChar ctermfg=brown guifg=brown
 hi Tag ctermfg=darkblue guifg=darkblue
