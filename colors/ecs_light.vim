@@ -90,3 +90,5 @@ hi Todo ctermfg=white ctermbg=lightgray cterm=bold,italic guifg=white
 hi Error ctermfg=darkmagenta ctermbg=NONE cterm=italic guifg=darkmagenta
 
 hi DiffChange ctermfg=white ctermbg=brown guifg=white
+
+hi Folded ctermfg=black ctermbg=white cterm=bold guifg=black
