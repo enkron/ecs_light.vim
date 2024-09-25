@@ -30,6 +30,11 @@ hi NonText ctermfg=grey guifg=grey
 hi Search ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=black
 hi link IncSearch Search
 hi StatusLine ctermbg=black ctermfg=lightgray guifg=lightgray
+hi User1 ctermfg=NONE ctermbg=lightgray cterm=NONE guifg=NONE
+hi User2 ctermfg=red ctermbg=lightgray cterm=NONE guifg=red
+hi User3 ctermfg=black ctermbg=lightgray cterm=bold guifg=black
+hi User4 ctermfg=lightgray ctermbg=black cterm=bold guifg=lightgray
+hi User5 ctermfg=brown ctermbg=lightgray cterm=bold guifg=brown
 hi VertSplit ctermfg=black ctermbg=NONE cterm=bold term=bold guifg=black
 hi Visual ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=blue
 
