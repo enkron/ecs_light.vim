@@ -31,7 +31,7 @@ hi Search ctermfg=darkcyan ctermbg=black cterm=bold term=bold guifg=black
 hi link IncSearch Search
 hi StatusLine ctermbg=black ctermfg=lightgray guifg=lightgray
 hi User1 ctermfg=NONE ctermbg=lightgray cterm=NONE guifg=NONE
-hi User2 ctermfg=67 ctermbg=lightgray cterm=NONE guifg=#5f87af
+hi User2 ctermfg=darkred ctermbg=lightgray cterm=NONE guifg=darkred
 hi User3 ctermfg=black ctermbg=lightgray cterm=bold guifg=black
 hi User4 ctermfg=lightgray ctermbg=black cterm=bold guifg=lightgray
 hi User5 ctermfg=brown ctermbg=lightgray cterm=bold guifg=brown
